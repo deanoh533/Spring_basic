@@ -19,7 +19,7 @@ public class hellocontroller {
         model.addAttribute("name", name);
         return "hello-template";
     }
-    @GetMapping("hello-mvc")
+    @GetMapping("hello-mvc2")
     @ResponseBody
     public String helloString(@RequestParam("name") String name , Model model){
         model.addAttribute("name", name);
