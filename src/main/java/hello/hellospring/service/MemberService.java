@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service //@Component를 포함
+//@Service //@Component를 포함
 public class MemberService {
     private final MemberRepository memberRepository ;
-    @Autowired
+    //@Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
